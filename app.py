@@ -6,7 +6,7 @@ import base64
 import google.generativeai as genai
 
 genai.configure(api_key="AIzaSyAIewGMqAtMEtZMZjDJgEPNEwh_Q74yfGw")  # Getting the API key from .env file at the time of configuration
-model = load_model("test.keras") #add final model file
+model = load_model('test.keras') #add final model file
 class_dict = np.load("class_names.npy")
 
 # Function for gemini response
