@@ -1,0 +1,6 @@
+streamlit
+numpy
+base64
+google-generativeai
+tensorflow
+keras
